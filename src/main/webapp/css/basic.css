@@ -1,0 +1,218 @@
+/* 폰트 */
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.jalnanche {
+  font-family: "yg-jalnan", verdana, tahoma;
+  font-size: 30px;
+  color: #726647 !important;
+}
+
+/* 전체 */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* 기본 버튼 모양 */
+button {
+  border-radius: 10px !important;
+  padding: 5px 15px !important;
+}
+
+/* container 셋팅(가운데정렬) */
+.containerSetting {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* 네비바 css 설정 */
+/* 네비바 fixed */
+body {
+	padding-top: 60px;
+}
+
+/* navBar */
+.navbar {
+/* 	background-color: #FFD24C; */
+	background-color: #FFE69A;
+	z-index: 10000;
+}
+
+.navbar a{
+	color:black;
+	text-decoration:none;
+}
+.navbar a:hover{
+	color:black;
+	text-decoration:none;
+}
+
+.search {
+	margin-left: 50px !important;
+}
+
+.searchInput {
+	border: none;
+	outline: none;
+	border-radius: 10px !important;
+	width: 50%;
+	padding-left: 7px;
+	color: black !important;
+	margin-right: 10px !important;
+}
+
+.searchInput::placeholder {
+	color: gray
+}
+
+.searchBtn {
+	border:1px solid #92B4EC !important;
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+.searchBtn:hover {
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+/* 네비바 로그인, 회원가입 버튼 */
+.loginBtn, .joinBtn {
+	border:1px solid #92B4EC !important;
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+.loginBtn:hover, .joinBtn:hover {
+	border:1px solid #92B4EC !important;
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+
+.logout {
+	font-size: 14px;
+	background-color: transparent;
+}
+
+.logout:hover {
+	background-color: #92B4EC !important;
+	border-color: #92B4EC !important;
+	color: white !important;
+	cursor: pointer;
+}
+.t-inline {
+    display: inline !important;
+}
+
+.mouse-effect {
+	position: relative;
+}
+
+.mouse-effect:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transition: 0.3s;
+}
+
+.mouse-effect:hover:after {
+	cursor: pointer;
+	background-color: #ffffff44;
+	color: #001e30;
+	border-radius: 30px;
+}
+
+.mouse-effect:active:after {
+	background-color: #ffffff3e;
+	border-radius: 30px;
+}
+/* 네비바 햄버거 버튼  */
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+/* 채팅 알람 */
+.new {
+	border-radius: 50%;
+	padding: 3px 6px;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	margin-bottom: 5px !important;
+	margin-left: 3px !important;
+}
+
+/* 채팅함 옆에  */
+.ds-inline {
+	display: inline-block !important;
+}
+
+
+/* footer */
+.footer {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 330px;
+	background-color: rgba(0, 0, 0, 0.05);
+	margin-top: 180px;
+}
+
+.footerData {
+	padding: 70px 50px 0px 70px;
+}
+
+.d-inline div {
+	display: inline-block;
+}
+
+.footerInfo {
+	line-height: 40px;
+	margin-right: 30px;
+}
+
+.cs {
+	padding: 30px 50px 0px 70px;
+	display: flex;
+	align-items: center;
+}
+
+.csText {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.pd {
+	padding-left: 30px;
+}
+
+
+
+/* 네비바 반응형 */
+@media ( max-width :990px) {
+	.searchInput {
+		margin-left: 160px !important;
+	}
+	.navbar {
+		display: none;
+		text-align: center !important;
+	}
+	.loginDrop {
+		text-align: center !important;
+	}
+}
+
+@media ( max-width :776px) {
+	.searchInput {
+		margin-left: 80px !important;
+	}
+}

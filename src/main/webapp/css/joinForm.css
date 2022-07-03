@@ -1,0 +1,56 @@
+/* 네비바 로그인, 회원가입 버튼 */
+.toLogin, .toJoin {
+	border:1px solid #92B4EC !important;
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+.toLogin:hover, .toJoin:hover {
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+
+/* 회원가입 */
+
+.joinRow {
+  width: 370px;
+  margin-bottom: 15px;
+}
+
+.inputForm {
+  width: 360px;
+  height: 50px;
+  padding: 10px;
+}
+.idInputDiv{
+	padding-right:0px !important;
+}
+.duplCheckBtn{
+	margin-top:5px;
+	padding : 8px !important;
+}
+
+.zipcode, .idInput {
+  width: 270px;
+  height: 50px;
+  padding: 10px;
+}
+
+.zipcodeInput {
+  padding-right: 0 !important;
+}
+
+.addressBtn{
+	margin-left:0px;
+}
+
+.personal,
+.answer {
+  width: 360px;
+  height: 40px;
+  padding: 10px;
+}
+
+.joinBtn {
+  width: 360px;
+  height: 50px;
+}

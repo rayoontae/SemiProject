@@ -1,0 +1,23 @@
+
+/* 프로필 수정 */
+.profile {
+  margin-top: 70px !important;
+}
+.profileText {
+  margin-right: 300px;
+}
+.profileImg {
+  object-fit:cover;
+  border: 1px solid #5f686db4;
+  border-radius: 50%;
+  margin: 0px;
+}
+
+/* 버튼 스타일 변경 */
+.btnNoStyle {
+  /* border: none; */
+  width: 100px;
+  padding: 5px !important;
+  margin: 0;
+}
+

@@ -1,0 +1,240 @@
+
+/* 버튼 */
+
+#btns button:not(#back){
+	font-size:14px;
+    border:1px solid #92B4EC !important;
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+
+#back{
+border:1px solid #92B4EC !important;
+background-color: #92B4EC !important;
+color: white !important;
+}
+
+#list{
+border:1px solid #92B4EC !important;
+background-color: #92B4EC !important;
+color: white !important;
+}
+
+#btns button:not(#back):hover {
+border:1px solid #92B4EC !important;
+background-color: #92B4EC !important;
+color: white !important;
+}
+#back:hover{
+border:1px solid #92B4EC !important;
+background-color: white !important;
+color: #92B4EC !important;
+}
+#list:hover{
+border:1px solid #FFE69A !important;
+background-color: #FFE69A !important;
+color: #726647 !important;
+}
+.reply{
+border:1px solid #FFE69A !important;
+background-color: #FFE69A !important;
+color: #726647 !important;
+height: 90%;
+width: 90%;
+padding: 5px !important;
+font-size:14px;
+}
+
+.reply:hover{
+  background-color: #726647 !important;
+  color: #FFE69A !important;
+  border : 2px solid #FFE69A;
+}
+
+
+/*  */
+.padding-left{
+	padding-left : 20px !important;	
+}
+#contentsTD *{
+	padding-left : 20px !important;	
+}
+.test *{
+	padding-left : 20px !important;	
+} 
+
+/* 게시글 카테고리 */
+#titleTH{
+	font-size:25px;
+	font-weight:bold;
+}
+
+.form{
+	padding-left:10px !important;
+}
+.width-700{
+	width:700px;
+}
+
+/* 상품 정보 */
+.bdInfo {
+  width: 700px;
+}
+.pr0 {
+  padding-right: 0 !important;
+}
+.pdCategory {
+  color: rgb(175, 174, 174);
+  font-size: 15px;
+}
+
+/* 작성자 정보 */
+.writerInfo {
+  position: relative;
+  width: 700px;
+}
+.writerImg {
+  text-decoration: none;
+}
+.writerImg img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* margin-right: 90px !important; */
+}
+.writerId {
+  text-decoration: none;
+  color: black;
+}
+.storeBtn {
+  position: absolute;
+  right: 20px;
+  padding: 5px 15px !important;
+  margin: 0;
+}
+.marginRight{
+	margin-right:10px;
+}
+
+/* 게시글 내용 */
+.bdContents {
+  width: 700px;
+}
+.colorGray {
+  color: rgb(175, 174, 174);
+  font-size: 15px;
+}
+
+/* 댓글 */
+
+.replyDiv{
+	width:700px;
+}
+
+.replyInputDiv {
+  padding-left:20px;
+  width:100%;
+}
+.replyInputDiv div{
+	padding-right:5px !important;
+}
+
+.replyInput {
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+  padding-top:7px;
+}
+
+.replyInput::placeholder {
+  padding-top:5px;
+  font-size: 15px;
+}
+
+.replyMsg {
+ 	border-bottom: 1px solid #e4e4e4;
+ 	width:100%;
+}
+
+.replyWriter {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.replyContents {
+  font-size: 16px;
+}
+
+.msgDate {
+  font-size: 14px;
+  color: gray;
+  padding-left: 10px;
+}
+
+.replyBtns {
+  text-align: right;
+  font-size: 12px;
+}
+
+#btnn input[type="button"]{
+	border-radius: 10px;
+}
+
+.replydelete,
+.replymodify,
+.modiok,
+.modicancel {
+  width:53.3px;
+  height:30px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 2px;
+  color: gray;
+  padding:0px !important;
+}
+
+.replymodify:hover,
+.replydelete:hover,
+.modiok:hover,
+.modicancel:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* 파일 리스트 */
+.fileDiv{
+	width:700px;
+	
+}
+.test{
+	padding-left:20px !important;
+}
+/* mobile */
+/* @media (max-width: 768px) {
+  .pdContents,
+  .writerInfo,
+  .pdInfo,
+  .carousel-inner,
+  .pdCaruousel,
+  .replyInputDiv,
+  .replyMsg{
+    width: 500px;
+  }
+} */
+@media (max-width: 768px) {
+  .writer {
+    margin-left: 20px;
+  }
+  .width-700,
+  .bdContents,
+  .writerInfo,
+  .bdInfo,
+  .replyDiv,
+  .fileDiv{
+    width: 500px;
+  }
+  hr {
+    width: 100%;
+  }
+}

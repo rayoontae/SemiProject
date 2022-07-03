@@ -1,0 +1,142 @@
+/* 게시판 */
+.board {
+	width: 100%;
+}
+
+/* 게시판 네비 */
+#d-inline * {
+	display: inline-block;
+}
+
+/* 자유 게시판 */
+.freeBanner {
+	width: 100%;
+}
+
+.freeBanner img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+/* 지도 */
+.carMap>div {
+	border-radius: 20px;
+}
+
+.carMap {
+	border-radius: 20px;
+	width: 800px;
+	height: 400px;
+}
+/* 게시판 테이블 */
+.thread {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.boardSeq {
+	width: 10%;
+}
+
+.thTitle, .title {
+	width: 50%;
+}
+
+tr {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.boardTitle a {
+  text-decoration: none;
+  color: black;
+}
+.boardTitle a:hover {
+  text-decoration: underline;
+  color:black;
+}
+
+.boardDate, .boardViewCount {
+	color: gray;
+}
+
+/* 글쓰기 버튼 */
+.boardBtn {
+	border: 1px solid black !important;
+	font-size: 13px;
+	padding: 5px !important;
+	margin: 0;
+}
+.boardSearchBtn{
+	border: 1px solid black !important;
+	font-size: 13px;
+	padding: 5px !important;
+	margin: 0;
+}
+.inputSearch{
+	height: 33px;
+}
+
+/* footer */
+.footer {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 330px;
+	background-color: rgba(0, 0, 0, 0.05);
+	margin-top: 180px;
+}
+
+.footerData {
+	padding: 70px 50px 0px 70px;
+}
+
+.d-inline div {
+	display: inline-block;
+}
+
+.footerInfo {
+	line-height: 40px;
+	margin-right: 30px;
+}
+
+.cs {
+	padding: 30px 50px 0px 70px;
+	display: flex;
+	align-items: center;
+}
+
+.csText {
+	margin: 0px;
+	font-size: 14px;
+}
+
+/* 반응형 */
+@media ( max-width : 996px) {
+	.carMap {
+		width: 700px;
+		height: 400px;
+	}
+	.boardTitle {
+		width: 100%;
+		display: block;
+	}
+	.boardSeq, .thWriter, .thDate, .thViewCount {
+		display: none;
+	}
+	.m-inline {
+		display: inline;
+	}
+	.boardWriter {
+		font-weight: 600;
+		font-size: 14px;
+	}
+	.boardDate, .boardViewCount {
+		font-size: 14px;
+	}
+}
+
+@media ( max-width : 720px) {
+	.carMap {
+		width: 430px;
+		height: 350px;
+	}
+}

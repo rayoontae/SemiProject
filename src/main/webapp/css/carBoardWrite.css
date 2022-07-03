@@ -1,0 +1,46 @@
+/* 파일첨부영역 colspan 없이 좌우로 붙이기 */
+
+textarea {
+	resize: none;
+	border: 0px;
+}
+
+
+.back, .submit{
+	font-size:14px;
+	border:1px solid #00a3ff;
+	color: #00a3ff;
+	background-color: transparent;
+}
+.back:hover,
+.submit:hover {
+  background-color: #00a3ff !important;
+  border-color: #00a3ff !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+/* #mytd label { */
+/* 	width: 90px; */
+/* 	text-align:center; */
+/* 	margin-top:5px !important; */
+/* 	display:block; */
+/* 	font-size:14px; */
+/* 	font-weight:light; */
+/*  	color: black; */
+/*  	cursor: pointer; */
+/*  	border : 2px solid dodgerblue; */
+/*   	border-radius: 10px !important; */
+/*  	padding: 5px 15px !important; */
+/* } */
+
+/* #mytd input[type="file"] { */
+/*     	position: absolute; */
+/*     	width: 0; */
+/*    	 	height: 0; */
+/*    	 	padding: 0; */
+/*     	overflow: hidden; */
+/*     	border: 0; */
+/* 	} */
+
+

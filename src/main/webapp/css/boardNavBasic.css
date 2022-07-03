@@ -1,0 +1,188 @@
+/* 폰트 */
+@font-face {
+	font-family: "yg-jalnan";
+	src:
+		url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jalnanche {
+	font-family: "yg-jalnan", verdana, tahoma;
+	font-size: 30px;
+}
+
+/* 전체 */
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/* 기본 버튼 모양 */
+/* button { */
+/*   border-radius: 10px !important; */
+/*   padding: 5px 15px !important; */
+/* } */
+
+/* container 셋팅(가운데정렬) */
+.containerSetting {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* 네비바 css 설정 */
+body {
+	padding-top: 60px;
+}
+
+/* navBar */
+.drop {
+	background-color: #FFD24C;
+}
+
+.navbar {
+	background-color: #FFD24C;
+	height: 50px !important;
+	z-index: 10000;
+}
+
+/* .navbar * { */
+/* 	color: #F9F3F3 !important; */
+/* } */
+
+/* .navbar-collapse{ */
+/* 	padding-right:1200px; */
+/* } */
+#mainNav {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 10;
+}
+
+.hamberg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.noColor {
+	color: black !important;
+}
+
+.search {
+	margin-left: 50px !important;
+}
+
+.searchInput::placeholder {
+	color: lightgray
+}
+
+.searchBtn {
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+
+.searchBtn:hover {
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+
+.login {
+	background-color: #F25287 !important;
+	color: #F9F3F3 !important;
+}
+
+.logout {
+	font-size: 14px;
+	border: 1px solid #00a3ff;
+	color: #00a3ff;
+	background-color: transparent;
+}
+
+.logout:hover {
+	background-color: #00a3ff !important;
+	border-color: #00a3ff !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.mouse-effect {
+	position: relative;
+}
+
+.mouse-effect:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transition: 0.3s;
+}
+
+.mouse-effect:hover:after {
+	background-color: #f9f3f320;
+	color: #001e30;
+	border-radius: 30px;
+}
+
+.mouse-effect:active:after {
+	background-color: #f9f3f30c;
+	border-radius: 30px;
+}
+
+/* 채팅 알람 */
+.new {
+	border-radius: 50%;
+	padding: 3px 6px;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	margin-bottom: 5px !important;
+	margin-left: 3px !important;
+}
+
+/* 채팅함 옆에  */
+.ds-inline {
+	display: inline-block !important;
+}
+
+/* 네비바 반응형 */
+@media ( max-width :990px) {
+	.searchInput {
+		margin-left: 160px !important;
+	}
+	.navbar {
+		display: none;
+		text-align: center !important;
+	}
+	.loginDrop {
+		text-align: center !important;
+	}
+
+	/* 	#subNav{ */
+	/* 		display:flex !important; */
+	/* 		justify-content:space-between !important; */
+	/* 	} */
+}
+
+@media ( max-width :776px) {
+	.searchInput {
+		margin-left: 80px !important;
+	}
+}
+
+@media ( max-width :767px) {
+	.test {
+		background-color: #FFD24C;
+		padding-top: 60px;
+	}
+}

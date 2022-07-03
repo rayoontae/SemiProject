@@ -1,0 +1,81 @@
+/* 네비바 로그인, 회원가입 버튼 */
+.toLogin, .toJoin {
+	border:1px solid #92B4EC !important;
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+.toLogin:hover, .toJoin:hover {
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+
+/* 아이디 찾기 */
+.findOption {
+	width: 360px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px !important;
+}
+
+.name, .email, .phone, .id, .pw, .pw_check_msg {
+	width: 360px;
+	height: 50px;
+	padding: 10px;
+}
+
+/* 비밀번호 찾기 */
+.personal, .answer {
+	width: 360px;
+	height: 40px;
+	padding: 10px;
+}
+
+/* find */
+.findBtn {
+	width: 360px;
+	height: 50px;
+}
+
+.findDiv {
+	width: 370px;
+	margin-bottom: 15px;
+}
+	
+#find1 {
+	margin-top: 25px;
+	}
+	
+#find2 {
+	margin-top: 25px;
+	}
+
+#a1{
+	color: black;
+	text-decoration:none;
+}
+
+#a2{
+	color: white;
+	text-decoration:none;
+}
+
+#submit{
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+#back{
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+.answer{
+	width: 360px;
+	height: 50px;
+	padding: 10px;
+}
+
+#personalanswer{
+	margin-top: 5px;
+}

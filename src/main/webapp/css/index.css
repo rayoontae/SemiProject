@@ -1,0 +1,504 @@
+/* 메인 */
+/* 메인 이미지 */
+.mainTop {
+	width: 100%;
+}
+
+.mainImg {
+	margin-right: 15px !important;
+	position: relative;
+	background-image: url("/source/img/mainbanner.gif");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ededed;
+	width: 100%;
+	height: 80vh;
+	border-radius: 20px;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+
+.mainImg::after {
+	position: absolute;
+	border-radius: 20px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/* 빈 값으로 넣어야 가상의 요소 생성; */
+	content: "";
+	background: F9F3F3;
+}
+
+.mainBtn {
+	width: 400px;
+}
+
+.mainBtn:hover {
+	background-color: #00a3ff !important;
+	border-color: #00a3ff !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.bannerTitle {
+	display: flex;
+	justify-content: center;
+	color: white;
+	z-index: 500;
+	padding-bottom:35px;
+}
+
+.bannerFont {
+	display: inline;
+}
+
+.bannerNumb {
+	display: inline;
+	font-weight: bold;
+}
+
+/* 로그인 박스 */
+.loginBox {
+	height: 110px;
+	/*   border: 1px solid gray; */
+/* 	background-color: #F8F9FA; */
+	background-color:#FFE69A;
+	border-radius: 20px;
+}
+
+
+.myMenu a{
+	font-size:16px;
+}
+
+.loginBox .div {
+	height: 35px;
+}
+
+.login {
+	background-color: #FFD24C!important;
+	color: white !important;
+	width: 80%;
+	padding: 10px !important;
+}
+
+.join {
+	text-decoration: none;
+	cursor: pointer;
+	margin-right: 40px !important;
+}
+.join:hover{
+	text-decoration:underline;
+}
+
+/* 프로필 수정 */
+
+.profileImg {
+
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	object-fit: cover;
+}
+
+.loginId {
+	margin-left: 10px;
+}
+
+.grade {
+	width: 30px;
+	height: 30px;
+}
+
+.myMenu a {
+	margin-left: 1%;
+	margin-right: 1%;
+	text-decoration: none;
+	color: black;
+	font-size:15px !important;
+}
+
+.myMenu a :hover {
+	cursor: pointer;
+	color: #00a3ff;
+}
+
+
+.logoutDiv {
+	margin-top: 20px !important;
+}
+
+.logoutDiv button {
+	white-space: nowrap;
+	font-size: 15px;
+}
+/* 가이드 박스 */
+.guide {
+	border-radius: 20px;
+	height: 64vh;
+	
+	background-image: url("/source/img/freebanner.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity:0.9;
+	
+	
+}
+.guidecomment{
+	margin-top:40px !important;
+	color:whitesmoke;
+	text-shadow: 2px 1px 2px gray;
+}
+.guideBtn{
+	width:100%;
+	border :1px solid #92B4EC;
+	background-color:#92B4EC !important;
+	color:white !important;
+}
+.guideBtn:hover{
+	border :1px solid white;
+	background-color:white !important;
+	color:#92B4EC !important;
+	
+}
+
+/* 멀티 채팅 박스 */
+#board {
+	position: relative;
+	margin-right: 20px !important;
+	width: 100%;
+	height: 64vh;
+	/*   border-radius: 20px;
+  border: 1px solid gray; */
+}
+
+#board>div {
+	height: 100%;
+	width: 100%;
+}
+
+#result {
+	height: 80%;
+	background-color: #92B4EC;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#result>div>div {
+	border-radius: 18px;
+	background-color: white;
+	color: black;
+	margin: 12px;
+	padding: 10px;
+	display: inline-block;
+	max-width: 50%;
+	word-break: break-all;
+}
+
+#input {
+	height: 100%;
+	overflow: auto;
+}
+
+#inputBox {
+	overflow: hidden;
+	border: 1px solid #5f686db4;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 20px;
+	padding-right: 1px;
+}
+
+#inputBox>div {
+	float: left;
+}
+
+#send {
+	border : none;
+	border-radius: 0px !important;
+	border-bottom-right-radius: 15px !important;
+	padding: 0px !important;
+	background-color: #FFE69A;
+	color:black;
+}
+#send:hover{
+	color:#FFD24C;
+}
+
+#result {
+	overflow-y: scroll;
+}
+
+#result::-webkit-scrollbar {
+	width: 9px;
+}
+
+#result::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+#result::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #5f686db4;
+}
+
+/* 상품 카테고리 */
+.pCategoryDiv {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 30px;
+}
+
+.pCategory {
+	width: 200px;
+	border-radius: 10px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.pCategory:hover {
+	background-color: rgba(0, 0, 0, 0.03);
+	cursor: pointer;
+}
+
+.pCategoryName {
+	height: 100%;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.pCategoryName:hover {
+	text-decoration: underline;
+}
+
+/* 자유게시판 & 벼룩시장 */
+.boardRow {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.freeBoard, .eventBanner {
+	padding: 40px !important;
+}
+
+.freeBoardList {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-size: 14px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.freeBoardList:hover {
+	background-color: rgba(0, 0, 0, 0.03);
+	cursor: pointer;
+}
+
+.freeBoardTag {
+	color: #00a3ff;
+	padding: 2px 4px;
+	border-radius: 3px;
+	font-size: 12px;
+	background-color: #dbf2ff;
+}
+
+.freeBoardText {
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+
+.freeBoardTitle {
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
+}
+
+.freeBoardTitle:hover {
+	text-decoration: underline;
+}
+
+.freeBoardDate {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.eventBannerImg {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	border-radius: 10px;
+	background-image: url("/source/img/marketbanner.png");
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px;
+}
+
+.eventBannerImg::after {
+	position: absolute;
+	border-radius: 10px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: "";
+	background-color: #f4f4f450 !important;
+}
+
+.eventBannerImg a{
+	z-index:200;
+}
+
+.eventBannerImg h3, h6, button {
+	z-index: 100;
+}
+
+.eventBanner h3 {
+	font-weight: 800;
+}
+
+.eventBanner h6 {
+	color: #585ede;
+	font-weight: bold;
+}
+
+.marketBtn {
+	margin-left: 60px;
+	width: 100px;
+}
+
+/* 상품 리스트 */
+.productTR {
+	width: 95%;
+}
+.pdAnker{
+	color:black;
+	text-decoration:none;
+}
+.pdAnker:hover{
+	color:#50575B;
+	text-decoration:underline;
+}
+/* .scroll{ */
+/* 	background-color:#F8F9FA; */
+/* } */
+
+/* .colDiv { */
+/* 	padding-left: 30px !important; */
+/* display:flex; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* } */
+
+/* .scroll .row{ */
+/* 	width:100%; */
+/* } */
+
+/* 
+.statusTag{
+	background-color: lightgray;
+} */
+
+.payTag {
+	color: #9c9c9c;
+	padding: 2px 4px;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: #ececec;
+}
+
+.payTag:hover {
+	background-color: #FFD24C;
+	color: white;
+}
+
+/* 관리자 */
+.admin{
+	text-align : center !important;
+}
+.admin a{
+	width:100%;
+}
+#toAdmin{
+	width:80%;
+}
+
+/* 신뢰도 */
+.grade{
+      width:40px;
+      height:40px;
+   }
+
+
+
+/* 모바일 화면 >> 채팅 높이 조절 */
+@media ( max-width :994px) {
+	.searchInput {
+		margin-left: 160px !important;
+	}
+	.pd {
+		padding: 0px !important;
+	}
+	#board, .guide {
+		height: 500px;
+	}
+	.colDiv {
+		width: 100%;
+	}
+	.navbar {
+		display: none;
+		text-align: center !important;
+	}
+	.loginDrop {
+		text-align: center !important;
+	}
+	.boardRow{
+		margin-bottom:0px !important;
+	}
+	
+	.guidecomment{
+		margin-top:15px !important;
+	}
+	.guideBtn{
+		width:70%;
+	}
+	
+}
+
+@media ( max-width :776px) {
+	
+	.guide{
+		height:54vh;
+	}
+	
+	.searchInput {
+		margin-left: 80px !important;
+	}
+	
+	.ellipsis{
+	  width:250px;
+      padding:0 5px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+}
+}

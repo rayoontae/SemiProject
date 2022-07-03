@@ -1,0 +1,58 @@
+/* Tablet */
+@media (max-width: 995px) {
+  /* 햄버거 버튼 생성시 내비바 재정렬 */
+  .t-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    padding: 40px 0px;
+  }
+  .t-inline {
+    display: inline !important;
+  }
+  .t-mb10 {
+    margin-bottom: 15px;
+  }
+
+  .boardRow {
+    height: 1000px;
+  }
+
+  .todayProductDiv {
+    margin-top: 500px;
+  }
+
+  /* tablet only */
+  .t-block {
+    display: block;
+  }
+
+  /* display none 모음 */
+  .t-hidden {
+    display: none !important;
+  }
+  .freeBoardDate {
+    display: none;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .freeBoard {
+    border: none;
+  }
+  .eventBannerImg {
+    height: 150px;
+  }
+  .eventBannerImg::after {
+    background-color: #f4f4f470 !important;
+  }
+  .eventBanner h3 {
+    font-size: 18px;
+  }
+
+  .eventBanner h6 {
+    font-size: 13px;
+  }
+}

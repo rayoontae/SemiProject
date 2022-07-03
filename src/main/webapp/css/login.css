@@ -1,0 +1,44 @@
+/* 네비바 로그인, 회원가입 버튼 */
+.toLogin, .toJoin {
+	border:1px solid #92B4EC !important;
+	background-color: #92B4EC !important;
+	color: white !important;
+}
+.toLogin:hover, .toJoin:hover {
+	background-color: white !important;
+	color: #92B4EC !important;
+}
+
+/* 로그인 input&button */
+.id,
+.pw {
+  width: 360px;
+  height: 50px;
+  padding: 10px;
+}
+
+.loginOption {
+  width: 360px;
+}
+
+.login-action {
+  display: flex;
+  justify-content: center;
+}
+
+.loginText {
+  font-size: 14px;
+}
+
+.loginbtn {
+  width: 360px;
+  height: 50px;
+}
+
+.join {
+  font-size: 14px;
+}
+
+.joinUrl {
+  margin-left: 15px;
+}
